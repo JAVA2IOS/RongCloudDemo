@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  CodeZ
+//
+//  Created by Primb_yqx on 17/1/6.
+//  Copyright © 2017年 HQExample. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <RongIMKit/RongIMKit.h>
+
+#define SELFVIEWWIDTH self.view.frame.size.width
+#define SELFVIEWHEIGHT self.view.frame.size.height
+#define SELFWIDTH self.frame.size.width
+#define SELFHEIGHT self.frame.size.height
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#endif /* PrefixHeader_pch */

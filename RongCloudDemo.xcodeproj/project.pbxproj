@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020E4A851EB196BF00AB8535 /* ChartListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E4A821EB196BE00AB8535 /* ChartListViewController.m */; };
+		020E4A861EB196BF00AB8535 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E4A841EB196BE00AB8535 /* ChatViewController.m */; };
+		020E4A8B1EB19EF900AB8535 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E4A8A1EB19EF900AB8535 /* FriendViewController.m */; };
+		020E4A8E1EB19F3500AB8535 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E4A8D1EB19F3500AB8535 /* NavigationController.m */; };
+		020E4A911EB1A08300AB8535 /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E4A901EB1A08300AB8535 /* AddFriendViewController.m */; };
+		026E915D1EB31DB8003B146E /* ChatSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 026E915C1EB31DB8003B146E /* ChatSettingViewController.m */; };
 		02D684071EADBEF200CD6501 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D684061EADBEF200CD6501 /* main.m */; };
 		02D6840A1EADBEF200CD6501 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D684091EADBEF200CD6501 /* AppDelegate.m */; };
 		02D6840D1EADBEF200CD6501 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D6840C1EADBEF200CD6501 /* ViewController.m */; };
@@ -15,6 +21,8 @@
 		02D684151EADBEF300CD6501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D684131EADBEF300CD6501 /* LaunchScreen.storyboard */; };
 		02D684201EADBEF300CD6501 /* RongCloudDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D6841F1EADBEF300CD6501 /* RongCloudDemoTests.m */; };
 		02D6842B1EADBEF300CD6501 /* RongCloudDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D6842A1EADBEF300CD6501 /* RongCloudDemoUITests.m */; };
+		02F6F9921ED5270E00FEE587 /* ChatSettingTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F9911ED5270E00FEE587 /* ChatSettingTwoViewController.m */; };
+		02FA942A1EB03D1800BE2B4E /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FA94291EB03D1800BE2B4E /* TabViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		020E4A811EB196BE00AB8535 /* ChartListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartListViewController.h; sourceTree = "<group>"; };
+		020E4A821EB196BE00AB8535 /* ChartListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartListViewController.m; sourceTree = "<group>"; };
+		020E4A831EB196BE00AB8535 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		020E4A841EB196BE00AB8535 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		020E4A891EB19EF900AB8535 /* FriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		020E4A8A1EB19EF900AB8535 /* FriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		020E4A8C1EB19F3500AB8535 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		020E4A8D1EB19F3500AB8535 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		020E4A8F1EB1A08300AB8535 /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		020E4A901EB1A08300AB8535 /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		020E4A921EB1A50000AB8535 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		026E915B1EB31DB8003B146E /* ChatSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatSettingViewController.h; sourceTree = "<group>"; };
+		026E915C1EB31DB8003B146E /* ChatSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatSettingViewController.m; sourceTree = "<group>"; };
+		0298D5FF1EADCFFF00979522 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0298D6001EADCFFF00979522 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0298D6011EADCFFF00979522 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0298D6021EADCFFF00979522 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0298D6031EADCFFF00979522 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0298D6041EADCFFF00979522 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0298D6051EADCFFF00979522 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0298D6061EADCFFF00979522 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0298D6071EADCFFF00979522 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0298D6081EADCFFF00979522 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0298D6091EADCFFF00979522 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0298D60A1EADCFFF00979522 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0298D60B1EADCFFF00979522 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		0298D60C1EADCFFF00979522 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0298D60D1EADCFFF00979522 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		0298D60E1EADCFFF00979522 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		0298D60F1EADCFFF00979522 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0298D6101EADCFFF00979522 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0298D6111EADCFFF00979522 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0298D6121EADCFFF00979522 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0298D6131EADCFFF00979522 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		0298D6141EADCFFF00979522 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		02D684021EADBEF200CD6501 /* RongCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RongCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D684061EADBEF200CD6501 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		02D684081EADBEF200CD6501 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +94,12 @@
 		02D684261EADBEF300CD6501 /* RongCloudDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RongCloudDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D6842A1EADBEF300CD6501 /* RongCloudDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RongCloudDemoUITests.m; sourceTree = "<group>"; };
 		02D6842C1EADBEF300CD6501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F6F9901ED5270E00FEE587 /* ChatSettingTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatSettingTwoViewController.h; sourceTree = "<group>"; };
+		02F6F9911ED5270E00FEE587 /* ChatSettingTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatSettingTwoViewController.m; sourceTree = "<group>"; };
+		02FA94281EB03D1800BE2B4E /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		02FA94291EB03D1800BE2B4E /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		8EA99008EBA5A2E0FCEF9307 /* Pods-RongCloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D083104DB117393AB1F44C81 /* Pods-RongCloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +127,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		020E4A801EB196BE00AB8535 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				020E4A811EB196BE00AB8535 /* ChartListViewController.h */,
+				020E4A821EB196BE00AB8535 /* ChartListViewController.m */,
+				020E4A831EB196BE00AB8535 /* ChatViewController.h */,
+				020E4A841EB196BE00AB8535 /* ChatViewController.m */,
+				026E915B1EB31DB8003B146E /* ChatSettingViewController.h */,
+				026E915C1EB31DB8003B146E /* ChatSettingViewController.m */,
+				02F6F9901ED5270E00FEE587 /* ChatSettingTwoViewController.h */,
+				02F6F9911ED5270E00FEE587 /* ChatSettingTwoViewController.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		020E4A871EB196CA00AB8535 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				020E4A891EB19EF900AB8535 /* FriendViewController.h */,
+				020E4A8A1EB19EF900AB8535 /* FriendViewController.m */,
+				020E4A8F1EB1A08300AB8535 /* AddFriendViewController.h */,
+				020E4A901EB1A08300AB8535 /* AddFriendViewController.m */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		020E4A881EB196CA00AB8535 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		02D683F91EADBEF200CD6501 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +167,8 @@
 				02D6841E1EADBEF300CD6501 /* RongCloudDemoTests */,
 				02D684291EADBEF300CD6501 /* RongCloudDemoUITests */,
 				02D684031EADBEF200CD6501 /* Products */,
+				779CBBC6042DB81F78135FA2 /* Pods */,
+				30DE3CA83523A75B666AC0A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +185,11 @@
 		02D684041EADBEF200CD6501 /* RongCloudDemo */ = {
 			isa = PBXGroup;
 			children = (
+				020E4A921EB1A50000AB8535 /* PrefixHeader.pch */,
+				020E4A871EB196CA00AB8535 /* Friend */,
+				020E4A881EB196CA00AB8535 /* Setting */,
+				020E4A801EB196BE00AB8535 /* Chat */,
+				02FA94271EB03CDF00BE2B4E /* NavigationViewController */,
 				02D684081EADBEF200CD6501 /* AppDelegate.h */,
 				02D684091EADBEF200CD6501 /* AppDelegate.m */,
 				02D6840B1EADBEF200CD6501 /* ViewController.h */,
@@ -140,6 +229,55 @@
 			path = RongCloudDemoUITests;
 			sourceTree = "<group>";
 		};
+		02FA94271EB03CDF00BE2B4E /* NavigationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				02FA94281EB03D1800BE2B4E /* TabViewController.h */,
+				02FA94291EB03D1800BE2B4E /* TabViewController.m */,
+				020E4A8C1EB19F3500AB8535 /* NavigationController.h */,
+				020E4A8D1EB19F3500AB8535 /* NavigationController.m */,
+			);
+			path = NavigationViewController;
+			sourceTree = "<group>";
+		};
+		30DE3CA83523A75B666AC0A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0298D5FF1EADCFFF00979522 /* AssetsLibrary.framework */,
+				0298D6001EADCFFF00979522 /* AudioToolbox.framework */,
+				0298D6011EADCFFF00979522 /* AVFoundation.framework */,
+				0298D6021EADCFFF00979522 /* CFNetwork.framework */,
+				0298D6031EADCFFF00979522 /* CoreAudio.framework */,
+				0298D6041EADCFFF00979522 /* CoreGraphics.framework */,
+				0298D6051EADCFFF00979522 /* CoreLocation.framework */,
+				0298D6061EADCFFF00979522 /* CoreMedia.framework */,
+				0298D6071EADCFFF00979522 /* CoreTelephony.framework */,
+				0298D6081EADCFFF00979522 /* CoreVideo.framework */,
+				0298D6091EADCFFF00979522 /* ImageIO.framework */,
+				0298D60A1EADCFFF00979522 /* libc++.tbd */,
+				0298D60B1EADCFFF00979522 /* libc++abi.tbd */,
+				0298D60C1EADCFFF00979522 /* libsqlite3.tbd */,
+				0298D60D1EADCFFF00979522 /* libstdc++.tbd */,
+				0298D60E1EADCFFF00979522 /* libxml2.tbd */,
+				0298D60F1EADCFFF00979522 /* libz.tbd */,
+				0298D6101EADCFFF00979522 /* MapKit.framework */,
+				0298D6111EADCFFF00979522 /* OpenGLES.framework */,
+				0298D6121EADCFFF00979522 /* QuartzCore.framework */,
+				0298D6131EADCFFF00979522 /* SafariServices.framework */,
+				0298D6141EADCFFF00979522 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		779CBBC6042DB81F78135FA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D083104DB117393AB1F44C81 /* Pods-RongCloudDemo.debug.xcconfig */,
+				8EA99008EBA5A2E0FCEF9307 /* Pods-RongCloudDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02D6842F1EADBEF300CD6501 /* Build configuration list for PBXNativeTarget "RongCloudDemo" */;
 			buildPhases = (
+				1A8B2E328724495AB2FE8512 /* [CP] Check Pods Manifest.lock */,
 				02D683FE1EADBEF200CD6501 /* Sources */,
 				02D683FF1EADBEF200CD6501 /* Frameworks */,
 				02D684001EADBEF200CD6501 /* Resources */,
+				10F12EEA86F9484E6D73D83D /* [CP] Embed Pods Frameworks */,
+				CDC7B8E48F69D6F1392CB118 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +348,7 @@
 				TargetAttributes = {
 					02D684011EADBEF200CD6501 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F7WPCZ2UFH;
 						ProvisioningStyle = Automatic;
 					};
 					02D6841A1EADBEF300CD6501 = {
@@ -268,14 +410,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10F12EEA86F9484E6D73D83D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A8B2E328724495AB2FE8512 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDC7B8E48F69D6F1392CB118 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RongCloudDemo/Pods-RongCloudDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02D683FE1EADBEF200CD6501 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				02D6840D1EADBEF200CD6501 /* ViewController.m in Sources */,
+				020E4A851EB196BF00AB8535 /* ChartListViewController.m in Sources */,
+				020E4A861EB196BF00AB8535 /* ChatViewController.m in Sources */,
 				02D6840A1EADBEF200CD6501 /* AppDelegate.m in Sources */,
+				020E4A8B1EB19EF900AB8535 /* FriendViewController.m in Sources */,
+				026E915D1EB31DB8003B146E /* ChatSettingViewController.m in Sources */,
+				020E4A8E1EB19F3500AB8535 /* NavigationController.m in Sources */,
 				02D684071EADBEF200CD6501 /* main.m in Sources */,
+				02F6F9921ED5270E00FEE587 /* ChatSettingTwoViewController.m in Sources */,
+				020E4A911EB1A08300AB8535 /* AddFriendViewController.m in Sources */,
+				02FA942A1EB03D1800BE2B4E /* TabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,8 +618,12 @@
 		};
 		02D684301EADBEF300CD6501 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D083104DB117393AB1F44C81 /* Pods-RongCloudDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F7WPCZ2UFH;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RongCloudDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = RongCloudDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = primb.RongCloudDemo;
@@ -431,8 +633,12 @@
 		};
 		02D684311EADBEF300CD6501 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA99008EBA5A2E0FCEF9307 /* Pods-RongCloudDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F7WPCZ2UFH;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RongCloudDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = RongCloudDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = primb.RongCloudDemo;
@@ -505,6 +711,7 @@
 				02D684311EADBEF300CD6501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02D684321EADBEF300CD6501 /* Build configuration list for PBXNativeTarget "RongCloudDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +720,7 @@
 				02D684341EADBEF300CD6501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02D684351EADBEF300CD6501 /* Build configuration list for PBXNativeTarget "RongCloudDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +729,7 @@
 				02D684371EADBEF300CD6501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

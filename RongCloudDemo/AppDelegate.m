@@ -7,17 +7,71 @@
 //
 
 #import "AppDelegate.h"
+#import "TabViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <RCIMUserInfoDataSource, RCIMGroupInfoDataSource>
 
 @end
+
+static const NSString *kUserId = @"primb1";
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[RCIM sharedRCIM] initWithAppKey:@"x18ywvqfxjitc"];
+    NSLog(@"正在连接融云服务器......");
+    [[RCIM sharedRCIM] connectWithToken:@"tut7xn9tnTUwlw8F0y+QKJ5GhKFvBsqEb1mR+v/jdFZEoGVSO90pI24KwmX/K2MM1dh8HrysUCHuO8eeGO4e1g=="
+                                success:^(NSString *userId) {
+                                    NSLog(@"登录成功！需要主动切换到主线程");
+                                    RCUserInfo *userInfo = [[RCUserInfo alloc] init];
+                                    userInfo.name = @"用户一";
+                                    userInfo.userId = @"primb1";
+                                    [[RCIM sharedRCIM] setCurrentUserInfo:userInfo];
+                                    dispatch_async(dispatch_get_main_queue(), ^{
+                                        TabViewController *rootVC = [[TabViewController alloc] init];
+                                        self.window.rootViewController = rootVC;
+                                        [self.window makeKeyAndVisible];
+                                    });
+                                }
+                                  error:^(RCConnectErrorCode status) {
+                                  }
+                         tokenIncorrect:^{
+                             NSLog(@"id错误");
+                         }];
+    
+    [RCIM sharedRCIM].globalNavigationBarTintColor = [UIColor blackColor];
+    [RCIM sharedRCIM].userInfoDataSource = self;
+    [RCIM sharedRCIM].groupInfoDataSource = self;
+    
     return YES;
+}
+
+/* 实现用户信息、群组信息数据源的缓存，可以通过缓存获取用户信息 */
+
+- (void)getUserInfoWithUserId:(NSString *)userId completion:(void (^)(RCUserInfo *))completion {
+    if (userId.length == 0) {
+        return;
+    }
+    RCUserInfo *userInfo = [[RCUserInfo alloc] init];
+    userInfo.userId = userId;
+    userInfo.name = @"姓名";
+    // 头像的url地址
+    userInfo.portraitUri = @"";
+    
+    completion(userInfo);
+}
+
+- (void)getGroupInfoWithGroupId:(NSString *)groupId completion:(void (^)(RCGroup *))completion {
+    if (groupId.length == 0) {
+        return;
+    }
+    RCGroup *group = [[RCGroup alloc] initWithGroupId:groupId
+                                            groupName:@"群组名称"
+                                          portraitUri:@""];
+    completion(group);
 }
 
 
@@ -30,6 +84,7 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    NSLog(@"是否进入后台");
 }
 
 
@@ -46,6 +101,4 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
-
 @end
